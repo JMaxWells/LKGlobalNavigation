@@ -2,8 +2,8 @@
 //  UIViewController+BFBase.h
 //  BigFan
 //
-//  Created by MaxWellPro on 16/4/11.
-//  Copyright © 2016年 QuanYan. All rights reserved.
+//  Created by QuanyanTech on 16/4/11.
+//  Copyright © 2016年 QuanyanTech. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

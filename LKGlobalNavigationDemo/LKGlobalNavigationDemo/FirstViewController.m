@@ -127,4 +127,8 @@
     return _tableView;
 }
 
+- (void)dealloc {
+    NSLog(@"\n %@ is dealloc \n",[self class]);
+}
+
 @end

@@ -2,8 +2,8 @@
 //  UIViewController+BFBase.m
 //  BigFan
 //
-//  Created by MaxWellPro on 16/4/11.
-//  Copyright © 2016年 QuanYan. All rights reserved.
+//  Created by QuanyanTech on 16/4/11.
+//  Copyright © 2016年 QuanyanTech. All rights reserved.
 //
 
 #import "UIViewController+BFBase.h"
@@ -31,7 +31,7 @@ static UIImage *defaultImage;
 + (void)initialize {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        ignoreControllers = @[@"LKGlobalNavigationController",@"LKRootViewController",@"BFLoginNavigationViewController",@"UINavigationController",@"UIImagePickerController",@"UICompatibilityInputViewController",@"UIAlertController",@"UISplitViewController",@"UIRemoteInputViewController",@"APayWapPayViewController",@"UIKeyboardCandidateGridCollectionViewController",@"UIInputWindowController",@"SWActionSheetVC",@"UIViewController"];
+        ignoreControllers = @[];
     });
 }
 

@@ -45,8 +45,6 @@
     [button setFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT_OUT_NAV)];
     [self.view addSubview:button];
     
-    self.navigationController pushViewController:<#(nonnull UIViewController *)#> animated:<#(BOOL)#>
-    
     // 设置导航栏按钮
     @weakify(self)
     [self setRightButtonItemWithTitle:@"回调"
@@ -69,14 +67,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)dealloc {
+    NSLog(@"\n %@ is dealloc \n",[self class]);
 }
-*/
 
 @end
